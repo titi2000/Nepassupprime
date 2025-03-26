@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirection Email</title>
+    <script>
+        window.onload = function() {
+            window.location.href = "mailto:contact@delphisystem.fr";
+            setTimeout(function() {
+                window.location.href = "https://delphisystem.fr";
+            }, 1000); // Redirection après 1 seconde
+        };
+    </script>
+</head>
+<body>
+    <p>Si la redirection ne fonctionne pas, <a href="https://delphisystem.fr">cliquez ici</a>.</p>
+</body>
+</html>
